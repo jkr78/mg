@@ -33,6 +33,7 @@ TODO:
 * As is now it is possible to extend transport side (again - interfaces)
 * Do it in Golang style
 * Fix grammar mistakes in documntation
+* Test and fix with https://goreportcard.com/
 * Add Makefile to help build/install
 * Add doc strings, document
 
