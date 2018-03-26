@@ -8,10 +8,10 @@ Following features should be supported:
 * Configurable board width and height
 * Configurable speed
 * Client can join and close communication. Game loop runs
-as long as where is one client started the game or zombie.
-* When where is not more zombies/clients game loop pauses.
+as long as where are one client started the game or zombie.
+* When where is no more zombies/clients game loop "pauses".
 * User can connect/disconnect in the middle of the game.
-* Users with same nick is not allowed
+* Users with same nick are not allowed
 
 
 List of stuff what is not done:
@@ -24,5 +24,6 @@ TODO:
 * Interfaces
 * As is now it is possible to extend transport side (again - interfaces)
 * Do it in Golang style
+* Fix grammar mistakes in documntation
 * Add doc strings, document
 
