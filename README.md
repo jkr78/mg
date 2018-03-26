@@ -14,6 +14,14 @@ as long as where are one client started the game or zombie.
 * Users with same nick are not allowed
 
 
+How to test:
+* `git clone https://github.com/jkr78/mg.git`
+* `cd mg`
+* `env GOPATH=$(pwd) go install github.com/jkr78/mg` - this will install shared library
+* `env GOPATH=$(pwd) go run src/mgserv.go` - this will start game server
+* in another terminal run `nc localhost 1201` and write `START me`
+
+
 List of stuff what is not done:
 * Only one game per server
 * Not tested carefully
@@ -25,5 +33,6 @@ TODO:
 * As is now it is possible to extend transport side (again - interfaces)
 * Do it in Golang style
 * Fix grammar mistakes in documntation
+* Add Makefile to help build/install
 * Add doc strings, document
 
