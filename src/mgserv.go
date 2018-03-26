@@ -30,10 +30,8 @@ func main() {
 
 	var sep []byte
 	if *crlf {
-		fmt.Println("CRLF")
 		sep = mg.CRLF[:]
 	} else {
-		fmt.Println("LF")
 		sep = mg.LF[:]
 	}
 
