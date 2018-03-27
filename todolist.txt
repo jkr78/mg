@@ -1,0 +1,11 @@
+More features:
+ ☐ Allow more game instances
+ ☐ Each game instance has it's own board definition
+ ☐ Ammo type (arrow subtype of ammo)
+ ☐ Zombie type (health and ammo type resistance)
+ ☐ More zombies at same time
+ ☐ Different zombie types has different speed (and run algo)
+ ☐ More transport suppor for client connection
+ ☐ Decision maker for shooting/result
+ ☐ More commands/Events
+ ☐ Client ui (https://github.com/nsf/termbox-go)
